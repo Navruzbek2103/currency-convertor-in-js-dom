@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <form action="https://echo.htmlacademy.ru/" id="form" class="d-flex flex-wrap">
+      <label class="col-6 p-2" for="money">Kerakli summani kiriting (so'mda): </label>
+      <input type="text" class="col-3 p-3" placeholder="Summa..." name="money" id="money">
+
+      <select name="select" class="col-2 text-center mx-5" id="select">
+        <!-- <option id="empty"></option> -->
+        <option id="UZS">UZS</option>
+        <option id="USD">USD</option>
+        <option id="EUR">EUR</option>
+        <option id="RUB">RUB</option>
+      </select>
+      <button type="submit" class="button col-2 my-4 p-3 mx-auto">Calculate</button>
+    </form>
+    <h2 class="col-12 text-center" id="h2">MoneyGramm1</h2>
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
